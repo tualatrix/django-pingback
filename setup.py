@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name = 'django-pingback',
     version = __import__('pingback').__version__,
-    description = 'Pingback client/server implementation for Django framework.',
+    description = 'Pingback client and server for Django web framework, extracted from Byteflow blog engine.',
     keywords = 'django apps',
     license = 'New BSD License',
     author = 'Alexander Solovyov',
@@ -20,7 +20,6 @@ setup(
         'Programming Language :: Python',
         'Topic :: Software Development :: Libraries :: Python Modules',
     ],
-    description = 'Pingback client and server for Django web framework, extracted from Byteflow blog engine.',
     packages = find_packages(),
     include_package_data = True,
 )
