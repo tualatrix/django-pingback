@@ -7,11 +7,10 @@ from urllib2 import urlopen, HTTPError, URLError
 from BeautifulSoup import BeautifulSoup
 
 from django.conf import settings
+from django.core import urlresolvers
 from django.contrib.sites.models import Site
 from django.contrib.contenttypes.models import ContentType
-from django.core import urlresolvers
-from django.core.urlresolvers import get_resolver
-from django.core.urlresolvers import get_callable
+from django.core.urlresolvers import get_resolver, get_callable
 from django.utils.html import strip_tags
 from django.utils.encoding import force_unicode, smart_str
 

@@ -1,6 +1,6 @@
 from django.core.urlresolvers import reverse
 
-class XPingMiddleware:
+class PingbackMiddleware(object):
     xmlrpc_url = reverse('xmlrpc')
 
     def process_response(self, request, response):
