@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = 'django-pingback',
-    version = __import__('pingback').__version__,
+    version = '0.1.2',
     description = 'Pingback client and server for Django web framework, extracted from Byteflow blog engine.',
     keywords = 'django apps',
     license = 'New BSD License',
