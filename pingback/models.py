@@ -32,7 +32,7 @@ class Pingback(models.Model):
         return u'%s to %s' % (self.url, self.object)
 
     def get_absolute_url(self):
-        return object.get_absolute_url()
+        return self.object.get_absolute_url() + '#pingback-%s' % self.id
 
     def save(self):
         self.content = self.content.strip()

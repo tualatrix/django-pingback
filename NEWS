@@ -1,0 +1,5 @@
+django-pingback 0.1.3
+=====================
+
+* Overview of Changes
+  - Return the object url + anchor, so that it will be earier to be found
